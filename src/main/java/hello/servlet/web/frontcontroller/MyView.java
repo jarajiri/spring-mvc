@@ -31,4 +31,7 @@ public class MyView {
         model.forEach(request::setAttribute);
     }
 
+    public String getViewPath() {
+        return viewPath;
+    }
 }
